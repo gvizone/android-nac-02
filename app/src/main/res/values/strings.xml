@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Burger FIAP</string>
+    <string name="cardapio">Cardápio</string>
+    <string name="cheeseburger">Cheeseburger R$</string>
+    <string name="ver_mais">Ver mais</string>
+    <string name="valor_burger">80</string>
+    <string name="batata_frita">Batata Frita R$</string>
+    <string name="valor_refri">10</string>
+    <string name="refrigerante">Refrigerante R$</string>
+    <string name="finalizar_compra">Finalizar Compra</string>
+    <string name="valor_batata">30</string>
+    <string name="label_valor_total">O Valor total é de: R$</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_size">35sp</dimen>
+    <dimen name="margin_item">15dp</dimen>
+    <dimen name="margin_bottom_header">40dp</dimen>
+    <dimen name="list_txt_size">20sp</dimen>
+    <dimen name="padding_txt_item">50dp</dimen>
+    <dimen name="margin_left_btn">40dp</dimen>
+    <dimen name="btn_txt_size">10sp</dimen>
+    <dimen name="img_size">100dp</dimen>
+    <dimen name="margin_top_layout">10dp</dimen>
+    <dimen name="valor_total">25sp</dimen>
+    <dimen name="margin_top_valor_total">20dp</dimen>
+</resources>

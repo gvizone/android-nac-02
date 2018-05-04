@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cardapio"
+        android:textSize="@dimen/header_size"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="@dimen/margin_bottom_header"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_item"
+                android:background="@color/background_color">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chbBurger"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/padding_txt_item"
+                    android:text="@string/cheeseburger"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/list_txt_size" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/valor_burger"
+                    android:textSize="@dimen/list_txt_size"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/valorBurger"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ver_mais"
+                    android:onClick="verMaisBurger"
+                    android:textSize="@dimen/btn_txt_size"
+                    android:layout_marginLeft="@dimen/margin_item"
+                    android:id="@+id/btnVerMaisBurger"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_item">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/img_size"
+                android:src="@drawable/cheeseburger"
+                android:background="@color/background_color"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/margin_top_layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_item"
+            android:background="@color/background_color">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chbBatata"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_txt_item"
+                android:text="@string/batata_frita"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/list_txt_size" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/valor_batata"
+                android:textSize="@dimen/list_txt_size"
+                android:textColor="@android:color/black"
+                android:id="@+id/valorBatata"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver_mais"
+                android:onClick="verMaisBatata"
+                android:textSize="@dimen/btn_txt_size"
+                android:layout_marginLeft="@dimen/margin_item"
+                android:id="@+id/btnVerMaisBatata"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_item">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/img_size"
+                android:src="@drawable/batata"
+                android:background="@color/background_color"/>
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/margin_top_layout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_item"
+                android:background="@color/background_color">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chbRefri"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/padding_txt_item"
+                    android:text="@string/refrigerante"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/list_txt_size" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/valor_refri"
+                    android:textSize="@dimen/list_txt_size"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/valorRefri"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ver_mais"
+                    android:onClick="verMaisRefri"
+                    android:textSize="@dimen/btn_txt_size"
+                    android:layout_marginLeft="@dimen/margin_item"
+                    android:id="@+id/btnVerMaisRefri"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_item">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/img_size"
+                    android:src="@drawable/refrigerante"
+                    android:background="@color/background_color"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_valor_total">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_valor_total"
+                android:textSize="@dimen/valor_total"
+                android:textColor="@android:color/black"
+                android:id="@+id/txtLabelValorTotal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/valor_total"
+                android:textColor="@android:color/black"
+                android:id="@+id/txtValorTotal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_valor_total">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/finalizar_compra"
+                android:onClick="finalizaCompra"
+                android:id="@+id/btnFinaliza"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
